@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.scrolline {
+  height: 300vh;
+}
+
+.scrolline .container {
+  overflow: hidden;
+}
+
+/* .data_line-animate {
+    stroke: #e5ff5d;
+} */
+
+.svg-change {
+  position: relative;
+  stroke-width: 4px;
+  transform: rotate(180deg);
+}
+
+.data_lines_svg-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-part {
+  height: 100vh;
+}
+
+.main-part svg {
+  width: 150px;
+  height: 150px;
+  /* overflow: visible; */
+}
+
+.diamond {
+  stroke: black;
+  stroke-width: 2;
+  fill: none;
+  stroke-dasharray: 1460;
+  stroke-dashoffset: 1460;
+}
